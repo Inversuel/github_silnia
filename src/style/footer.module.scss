@@ -1,0 +1,12 @@
+@use "./variables" as v;
+
+.container{
+  width: 100%;
+  background-color: v.$small-color;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}

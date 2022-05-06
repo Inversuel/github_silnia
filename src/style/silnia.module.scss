@@ -1,0 +1,52 @@
+@use "./variables" as v;
+
+
+.labelGithub {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.formGithub{
+  margin: 20px;  
+}
+.buttonGithub{
+  font-size: 1.2rem;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100px;
+  min-height: 44px;
+  border: unset;
+  border-radius: 4px;
+  margin-left: 20px;
+  background: v.$small-color;
+  cursor: pointer;
+  &:hover{
+    scale: 1.1;
+  }
+  &:click{
+    scale:0.8;
+  }
+
+}
+
+.wynik{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGithub {
+  padding: 12px 20px;
+  font-size :1rem;
+  border-width :1px;
+  border-style :solid;
+  border-color :v.$small-color;
+  border-radius :4px;
+  text-align: center;
+  outline: transparent;
+  width :50%;
+  transition: border-color calc(var(0.2, 0.2) * 1s) ease;
+}
+ .loader{
+   width: 25%;
+   height: auto;
+   padding-left: 15%;
+ }
